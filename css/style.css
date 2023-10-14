@@ -1,0 +1,146 @@
+header {
+  /* position: fixed; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* padding: 1% 10%; */
+  /* margin-right: auto; */
+  /* margin-left: auto; */
+  margin-bottom: -10px;
+}
+.headerChild {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+  margin: 20px 50px;
+  margin-right: auto;
+  margin-left: 350px;
+}
+body {
+  font-family: "Lato", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  /* word-spacing: .1px; */
+  font-weight: bold;
+  font-size: 14px;
+}
+.logo {
+  /* filter: brightness(1.2); */
+  margin-top: 22px;
+}
+.dropdown {
+  display: flex;
+  border: solid rgb(187, 187, 187) 1px;
+  height: 20px;
+  padding: 9px 10px;
+  border-radius: 20px;
+  gap: 13px;
+}
+
+.link {
+  margin: 8px 1px;
+}
+
+div.headerChild img[src="images/globe.svg"] {
+  margin: 8px 1px;
+}
+
+header {
+  /* width: 50%; /* Set the desired width for your header */
+  /* margin: 50px  auto; Center the header horizontally */
+}
+#div1 {
+  margin-left: auto;
+  margin-right: 350px;
+}
+hr {
+  opacity: 0.4;
+}
+
+.signUp {
+  margin: auto;
+  margin-top: 100px;
+  width: 35%;
+  border: solid rgb(187, 187, 187) 1px;
+  text-align: center;
+  border-radius: 10px;
+}
+.signUp2 {
+  text-align: left;
+  margin: 3% 6%;
+}
+.mobile > * {
+  display: block;
+  width: 100%;
+  font-size: large;
+  padding: 10px;
+  border-radius: 7px;
+  margin: auto;
+}
+input {
+  width: 95% !important;
+  border: 1px solid black;
+}
+.continue {
+  background-color: #e61e4d;
+  width: 100%;
+  color: white;
+  border: 0px;
+  font-size: large;
+  padding: 10px;
+  border-radius: 7px;
+  margin: auto;
+  text-align: center;
+  cursor: pointer;
+}
+.btn {
+}
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px grey solid;
+  height: 50px;
+  font-weight: bold;
+}
+.btnInner {
+}
+.btn-button {
+  display: inline-block;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn-button .btnInner {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.btn-button svg {
+  vertical-align: middle;
+}
+.mobile {
+  margin-top: 10px;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  margin-bottom: 10px;
+  padding-left: 20px;
+  color: #878787;
+}
+
+footer {
+  margin-top: 50px;
+}
+.footerlists {
+  margin: auto;
+  padding-top: 20px;
+  gap: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
